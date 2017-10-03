@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>油兔视频-我的订阅</title>
+    <link rel="shortcut icon" href="image/ico/ico.ico"/>
+    <link rel="stylesheet" href="style/view/subscribe.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/mock-min.js"></script>
+    <script type="text/javascript" src="js/subscribe.js"></script>
+</head>
+<body>
+
+<!--顶部信息区-->
+<div class="topNav-wrapper">
+    <div class="topNav">
+        <div class="topNav-l">
+            <a href="index.html" class="logo left"><img src="image/topNav/logo.png"></a>
+            <ul class="left">
+                <li class="left"><a href="index.html">当下热门</a></li>
+                <li class="left"><a href="partitions.html">分区</a></li>
+                <li class="left"><a href="" id="MySubscribe">我的订阅</a></li>
+                <li class="left"><a href="" id="userCenter">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="topNav-r">
+            <form class="left">
+                <input type="button" class="searchBtn left" id="toSearch">
+                <input type="text" class="searchText left" id="searchText" placeholder="发现世界" autocomplete="off">
+            </form>
+            <span class="upload left"><a href="" id="upLoad"></a></span>
+            <div class="topNav-login right">
+            </div>
+        </div>
+    </div>
+</div>
+<!--顶部-->
+<div class="header-wrapper">
+    <div class="header">
+        <div class="header-list">
+            <div class="active">订阅中心</div>
+            <div>追剧与收藏</div>
+        </div>
+    </div>
+</div>
+<!--内容部分-->
+<div class="y-body-wrapper ">
+    <div class="y-body">
+        <div class="s-box">
+            <div class="my-subscribe-wrapper clearfloat">
+                <div class="s-top">
+                    <span>我的订阅频道</span>
+                    <a class="s-manage" href="userCenter.html?tab=subscribe">订阅管理</a>
+                </div>
+                <ul class="my-subscribe clearfloat">
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                    <li class="">
+                        <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg"  class="avatar">
+                        <div class="avatar-bg">
+                            <img src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg" >
+                        </div>
+                        <div class="channel-name">
+                            LiGouDan
+                        </div>
+                    </li>
+                </ul>
+                <div class="other-index">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="subscribe-up-wrapper">
+                <div class="s-top">
+                    <span>订阅频道的更新内容</span>
+                </div>
+                <ul class="subscribe-up clearfloat">
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <img class="avatar clearfloat" src="image/subscribe/c9042ac879e3a53b9ec6141262b0f613ed5fa495.jpg">
+                            <div class="name">LiGoDanDe</div>
+                        </div>
+                        <div class="info">
+                            <a href="" class="v-img">
+                                <img src="image/subscribe/img.png">
+                                <span>1:20:30</span>
+                            </a>
+                            <div class="title">十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗.十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗十二星座研究室，人性黑暗 十二星座研究室，人性黑暗十二星座 研究室，人性黑暗</div>
+                            <div class="v-info">
+                                <span></span>
+                                <div class="v-time">一天前</div>
+                                <div class="v-class">
+                                    <div class="v-c"><a href="">美国</a></div>
+                                    <span>-</span>
+                                    <div class="v-f"><a href="">音乐</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="c-box">
+            <div class="my-movies-wrapper clearfloat">
+                <!--<div class="s-top">
+                    <span>我的追剧</span>
+                    <a class="s-manage" href="">追剧管理</a>
+                </div>
+                <ul class="my-watch clearfloat">
+                    <li>
+                        <div class="m-info">
+                            <a class="m-info-bg" href="">
+                                <div class="m-time">1小时前</div>
+                                <div class="m-desc">刚刚更新了熟肉，欢迎大家观看</div>
+                            </a>
+                            <img src="image/subscribe/img2.png">
+                        </div>
+                        <a class="m-title" href="">万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到</a>
+                    </li>
+                    <li>
+                        <div class="m-info">
+                            <a class="m-info-bg" href="">
+                                <div class="m-time">1小时前</div>
+                                <div class="m-desc">刚刚更新了熟肉，欢迎大家观看</div>
+                            </a>
+                            <img src="image/subscribe/img2.png">
+                        </div>
+                        <a class="m-title" href="">万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到</a>
+                    </li>
+                    <li>
+                        <div class="m-info">
+                            <a class="m-info-bg" href="">
+                                <div class="m-time">1小时前</div>
+                                <div class="m-desc">刚刚更新了熟肉，欢迎大家观看</div>
+                            </a>
+                            <img src="image/subscribe/img2.png">
+                        </div>
+                        <a class="m-title" href="">万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到</a>
+                    </li>
+                    <li>
+                        <div class="m-info">
+                            <a class="m-info-bg" href="">
+                                <div class="m-time">1小时前</div>
+                                <div class="m-desc">刚刚更新了熟肉，欢迎大家观看</div>
+                            </a>
+                            <img src="image/subscribe/img2.png">
+                        </div>
+                        <a class="m-title" href="">万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到</a>
+                    </li>
+                    <li>
+                        <div class="m-info">
+                            <a class="m-info-bg" href="">
+                                <div class="m-time">1小时前</div>
+                                <div class="m-desc">刚刚更新了熟肉，欢迎大家观看</div>
+                            </a>
+                            <img src="image/subscribe/img2.png">
+                        </div>
+                        <a class="m-title" href="">万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到万万没想到</a>
+                    </li>
+                </ul>
+                <div class="other-index">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>-->
+            </div>
+            <div class="my-collection-wrapper">
+                <div class="s-top">
+                    <span>我的收藏</span>
+                    <a class="s-manage" href="userCenter.html?tab=collection">收藏管理</a>
+                </div>
+                <div class="c-v-list clearfloat">
+                    <ul class="v-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部栏-->
+<div class="footer">
+    <ul>
+        <li>关于我们</li>
+        <li>合作推广</li>
+        <li>加入我们</li>
+        <li>友情链接</li>
+        <li>免责声明</li>
+        <li>官方微博</li>
+        <li>微信公众号</li>
+    </ul>
+    <p>本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源。Copyright © 2017 Youtubuer. 保留所有权利 闽ICP备11111111号-1</p>
+</div>
+</body>
+</html>

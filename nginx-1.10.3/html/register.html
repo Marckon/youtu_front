@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>油兔视频-注册</title>
+    <link rel="shortcut icon" href="image/ico/ico.ico"/>
+    <link rel="stylesheet" href="style/view/register.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<!--顶部信息区-->
+<div class="topNav-wrapper">
+    <div class="topNav">
+        <div class="topNav-l">
+            <a href="index.html" class="logo left"><img src="image/topNav/logo.png"></a>
+            <ul class="left">
+                <li class="left"><a href="index.html">当下热门</a></li>
+                <li class="left"><a href="partitions.html">分区</a></li>
+                <li class="left"><a href="" id="MySubscribe">我的订阅</a></li>
+                <li class="left"><a href="" id="userCenter">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="topNav-r">
+            <form class="left">
+                <input type="button" class="searchBtn left" id="toSearch">
+                <input type="text" class="searchText left" id="searchText" placeholder="发现世界" autocomplete="off">
+            </form>
+            <span class="upload left"><a href="" id="upLoad"></a></span>
+            <div class="topNav-login right">
+            </div>
+        </div>
+    </div>
+</div>
+<!--顶部背景色-->
+<div class="header"></div>
+<!--中间登陆区-->
+<div class="login-wrapper">
+    <div class="login">
+        <div class="logo-wrapper">
+            <div class="logo"></div>
+            <p class="logoName">油兔视频</p>
+
+            <p class="logoEnglish">Youtu Video</p>
+        </div>
+        <div id="r-box">
+            <div class="Mail-wrapper">
+                <p class="message">请输入邮箱名</p>
+                <input type="text" class="Mail" placeholder="输入邮箱">
+            </div>
+            <div class="UserName-wrapper">
+                <p class="message">昵称长度为3-16</p>
+                <input type="text" class="UserName" placeholder="输入昵称">
+            </div>
+            <div class="PassWord-wrapper">
+                <p class="message">字母开头，长度在6-16之间，只能包含字符、数字</p>
+                <input type="password" class="PassWord" placeholder="输入密码">
+            </div>
+            <div class="PassWord-C-wrapper">
+                <p class="message">请输入确认密码</p>
+                <input type="password" class="PassWord-C" placeholder="确认密码">
+            </div>
+            <div class="I-Code-wrapper clearfloat">
+                <p class="message">请输入图片验证码</p>
+                <input type="text" class="I-Code" placeholder="图片验证码">
+                <div class="I-Code-img"><img src=""></div>
+            </div>
+            <div class="E-Code-wrapper clearfloat">
+                <p class="message">请输入邮箱验证码</p>
+                <input type="text" class="E-Code" placeholder="邮箱验证码">
+                <div class="E-Code-img">点击获取</div>
+            </div>
+            <input type="button" class="M-registerGO" value="注册">
+            <a href="login.html" class="Gologin">返回登陆</a>
+        </div>
+
+    </div>
+</div>
+
+<!--底部栏-->
+<div class="footer">
+    <ul>
+        <li>关于我们</li>
+        <li>合作推广</li>
+        <li>加入我们</li>
+        <li>友情链接</li>
+        <li>免责声明</li>
+        <li>官方微博</li>
+        <li>微信公众号</li>
+    </ul>
+    <p>本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源。Copyright © 2017 Youtubuer. 保留所有权利 闽ICP备11111111号-1</p>
+</div>
+<script src="js/register.js"></script>
+</body>
+</html>

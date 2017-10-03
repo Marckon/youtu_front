@@ -1,0 +1,157 @@
+/*清除样式*/
+@import "../base/reset.css";
+/*顶部信息区*/
+@import "../base/header.css";
+/*底部区域*/
+@import "../base/footer.css";
+
+
+/*公共参数区*/
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #4ca5bb;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(255,255,255,0.6)
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(255,255,255,0.6)
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(255,255,255,0.6)
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgba(255,255,255,0.6)
+}
+/*头部*/
+.topNav-wrapper{
+    background-color: #4ca5bb;
+}
+
+.header{
+    flex: 0 0 auto;
+    height: 60px;
+    background: #4ca5bb;
+}
+/*底部固定*/
+.footer{
+    flex:0 0 auto;
+}
+/*注册页部分*/
+.login-wrapper{
+    flex:1 0 auto;
+}
+.login-wrapper .login{
+    margin: 40px auto 40px;
+    width: 350px;
+    height: 470px;
+    border: 4px solid #FFFFFF;
+}
+.logo-wrapper .logo{
+    margin: 32px auto 0 auto;
+    width: 63px;
+    height: 64px;
+    background: url("../../image/login/w_logo.png");
+}
+.logo-wrapper .logoName{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 550;
+    color: white;
+    text-align: center;
+ }
+.logo-wrapper .logoEnglish{
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.login-form{
+    margin-top: 25px;
+    text-align: center;
+}
+.input-box{
+    text-align: center;
+}
+.input-box input{
+    width: 276px;
+    height: 36px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.input-box .message{
+    margin-left: 25px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: left;
+}
+.UserName-wrapper{
+    margin-top: 5px;
+}
+.Code-wrapper .Code{
+    float: left;
+    margin-left: 25px;
+    width: 180px;
+    height: 36px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.Code-wrapper .Code-img{
+    float: right;
+    margin-right: 25px;
+    width: 96px;
+    height: 42px;
+    background: #FFFFFF;
+}
+.Code-wrapper .Code-img img{
+    margin-top: 2%;
+    width: 95%;
+    height: 90%;
+    cursor: pointer;
+}
+
+.input-box .loginGo{
+    margin: 20px 25px 0 25px;
+    padding-left: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    color: #3a95ac;
+    background: #FFFFFF;
+    letter-spacing: 20px;
+    cursor: pointer;
+}
+.lostPassWord{
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.UserRegister{
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+

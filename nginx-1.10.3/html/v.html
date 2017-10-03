@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>油兔视频-视频播放</title>
+    <link rel="shortcut icon" href="image/ico/ico.ico"/>
+    <link rel="stylesheet" href="style/view/v.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!--<script type="text/javascript" src="js/mock-min.js"></script>-->
+    <script type="text/javascript" src="js/v.js"></script>
+    <!--<script type="text/javascript" src="js/mock/v-mock-comment.js" defer async="true"></script>-->
+    <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="js/DPlayer.min.js"></script>
+    <script src="js/vcomment.js"></script>
+</head>
+<body>
+<!--顶部信息区-->
+<div class="topNav-wrapper">
+    <div class="topNav">
+        <div class="topNav-l">
+            <a href="index.html" class="logo left"><img src="image/topNav/logo.png"></a>
+            <ul class="left">
+                <li class="left"><a href="index.html">当下热门</a></li>
+                <li class="left"><a href="partitions.html">分区</a></li>
+                <li class="left"><a href="" id="MySubscribe">我的订阅</a></li>
+                <li class="left"><a href="" id="userCenter">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="topNav-r">
+            <form class="left">
+                <input type="button" class="searchBtn left" id="toSearch">
+                <input type="text" class="searchText left" id="searchText" placeholder="发现世界" autocomplete="off">
+            </form>
+            <span class="upload left"><a href="" id="upLoad"></a></span>
+            <div class="topNav-login right">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="topNav-bg"></div>
+<!--视频上部视频标题和订阅区-->
+<div class="info1-wrapper clearfloat">
+    <div class="info1">
+        <div class="info1-l left">
+            <div class="v-title"></div>
+            <div class="v-country left"></div>
+            <span class="left">-</span>
+            <div class="v-class-f left"></div>
+            <div class="v-time"></div>
+        </div>
+        <div class="info1-r right">
+            <div class="info1-r-w">
+                <div class="v-avatar">
+                    <a href="" target="_blank">
+                        <img src="">
+                    </a>
+                </div>
+                <div class="v-username">
+                    <a href="" target="_blank"></a>
+                </div>
+                <p class="v-desc"></p>
+            </div>
+            <div class="v-subscribe-btn">订阅</div>
+        </div>
+    </div>
+</div>
+<!--播放区-->
+<div class="videoPlay-wrapper">
+    <div class="main">
+        <div id="videoPlay">
+            <div id="player1" class="dplayer"></div>
+        </div>
+        <!--播放区左侧功能条-->
+        <ul class="play-l-list">
+            <li class="like" title="点赞"></li>
+            <li class="dislike" title="倒赞"></li>
+            <li class="share" title="分享"></li>
+            <li class="share-list">
+                <ul>
+                    <li class="wechat"></li>
+                    <li class="qq"></li>
+                    <li class="qzone"></li>
+                    <li class="weibo"></li>
+                </ul>
+            </li>
+            <li class="collect" title="未收藏"></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--视频下部视频标题和订阅区-->
+<div class="info2-wrapper">
+    <div class="info2">
+        <div class="v-img left">
+                <img src="">
+        </div>
+        <div class="v-title left"></div>
+        <p class="v-desc"></p>
+        <div class="v-tag">视频标签：</div>
+        <div class="v-subscribe-btn"><span></span>订阅</div>
+    </div>
+</div>
+<!--相关视频推广区-->
+<div class="otherVideo-wrapper">
+    <div class="otherVideo ">
+        <div class="other-title">相关视频</div>
+        <div class="other-index">
+        </div>
+        <div class="other-left-btn"></div>
+        <div class="other-right-btn"></div>
+        <div class="swiper-container">
+            <div class="other-v swiper-wrapper">
+            </div>
+        </div>
+    </div>
+</div>
+<!--评论区-->
+<div class="comment-wrapper">
+    <div class="comment">
+        <!--发表评论区-->
+        <div class="comment-send clearfloat">
+            <textarea class="comment-text" placeholder="快来说说你的想法..."></textarea>
+            <input class="comment-btn" type="button" value="发送">
+        </div>
+        <div class="comment-header">
+            <ul class="tabs-order">
+                <li class="on">全部评论</li>
+                <li>热门评论</li>
+            </ul>
+            <div class="header-page">
+
+            </div>
+        </div>
+
+        <div class="comment-list">
+            <div class="comment-list-load">
+                正在载入中...
+            </div>
+            <!--<div class="list-item clearfloat" data-id="123456789">
+                <div class="u-face" data-usercard-mid="1234567">
+                    <a href="" target="_blank">
+                        <img src="images/v-play/videoimg08.png">
+                    </a>
+                </div>
+                <div class="con">
+                    <div class="user clearfloat">
+                        <a href="">天才小熊猫</a>
+                        <div class="time">2017-04-29 16:27</div>
+                    </div>
+                    <p class="text">
+                        我的天，即使主子再怎么淘气调再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                    <div class="reply-box">
+                        <div class="reply-item reply-border" data-id="123456789">
+                            <div class="reply-con clearfloat">
+                                <div class="reply-user"><a href="" target="_blank">天才小熊猫</a></div>
+                                <div class="reply-time">2017-04-29 16:27</div>
+                            </div>
+                            <div class="reply-info">
+                                <span class="reply ">回复</span>
+                                <div class="up"><span>(123)</span></div>
+                                <div class="down"><span>(119)</span></div>
+                            </div>
+                            <p class="reply-text">
+                                给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                        </div>
+                        <div class="reply-item reply-border" data-id="123456789">
+                            <div class="reply-con clearfloat">
+                                <div class="reply-user"><a href="" target="_blank">天才小熊猫</a></div>
+                                <div class="reply-time">2017-04-29 16:27</div>
+                            </div>
+                            <div class="reply-info">
+                                <span class="reply ">回复</span>
+                                <div class="up"><span>(123)</span></div>
+                                <div class="down"><span>(119)</span></div>
+                            </div>
+                            <p class="reply-text">
+                                给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                        </div>
+                        <div class="paging-box">
+                            <span class="result">共9页</span>
+                            <a href="javascript:;" class="prep">上一页</a>
+                            <a href="javascript:;" class="tcd-number">1</a>
+                            <a href="javascript:;" class="tcd-number">2</a>
+                            <a href="javascript:;" class="tcd-number">3</a>
+                            <span class="current">4</span>
+                            <a href="javascript:;" class="tcd-number">5</a>
+                            <a href="javascript:;" class="tcd-number">6</a>
+                            <span class="dian">...</span>
+                            <a href="javascript:;" class="tcd-number">9</a>
+                            <a href="javascript:;" class="prep">下一页</a>
+                        </div>
+                    </div>
+                    <div class="comment-info ">
+                        <span class="floor">#1</span>
+                        <div class="up"><span>(123)</span></div>
+                        <div class="down"><span>(119)</span></div>
+                        <span class="reply ">回复</span>
+                    </div>
+                    <div class="comment-send">
+                        <textarea class="comment-text" placeholder="快来说说你的想法..."></textarea>
+                        <input class="comment-btn" type="button" value="发送">
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-item clearfloat" data-id="123456789">
+                <div class="u-face" data-usercard-mid="1234567">
+                    <a href="" target="_blank">
+                        <img src="images/v-play/videoimg08.png">
+                    </a>
+                </div>
+                <div class="con">
+                    <div class="user clearfloat">
+                        <a href="">天才小熊猫</a>
+                        <div class="time">2017-04-29 16:27</div>
+                    </div>
+                    <p class="text">
+                        我的天，即使主子再怎么淘气调再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                    <div class="reply-box">
+                        <div class="reply-item" data-id="123456789">
+                            <div class="reply-con clearfloat">
+                                <div class="reply-user"><a href="" target="_blank">天才小熊猫</a></div>
+                                <div class="reply-time">2017-04-29 16:27</div>
+                            </div>
+                            <div class="reply-info">
+                                <span class="reply ">回复</span>
+                                <div class="up"><span>(123)</span></div>
+                                <div class="down"><span>(119)</span></div>
+                            </div>
+                            <p class="reply-text">
+                                给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                        </div>
+                    </div>
+                    <div class="comment-info">
+                        <span class="floor">#2</span>
+                        <div class="up"><span>(123)</span></div>
+                        <div class="down"><span>(119)</span></div>
+                        <span class="reply ">回复</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item clearfloat" data-id="123456789">
+                <div class="u-face" data-usercard-mid="1234567">
+                    <a href="" target="_blank">
+                        <img src="images/v-play/videoimg08.png">
+                    </a>
+                </div>
+                <div class="con">
+                    <div class="user clearfloat">
+                        <a href="">天才小熊猫</a>
+                        <div class="time">2017-04-29 16:27</div>
+                    </div>
+                    <p class="text">
+                        我的天，即使主子再怎么淘气调再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                    <div class="reply-box">
+                        <div class="reply-item reply-border" data-id="123456789">
+                            <div class="reply-con clearfloat">
+                                <div class="reply-user"><a href="" target="_blank">天才小熊猫</a></div>
+                                <div class="reply-time">2017-04-29 16:27</div>
+                            </div>
+                            <div class="reply-info">
+                                <span class="reply ">回复</span>
+                                <div class="up"><span>(123)</span></div>
+                                <div class="down"><span>(119)</span></div>
+                            </div>
+                            <p class="reply-text">
+                                给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                        </div>
+                        <div class="reply-item reply-border" data-id="123456789">
+                            <div class="reply-con clearfloat">
+                                <div class="reply-user"><a href="" target="_blank">天才小熊猫</a></div>
+                                <div class="reply-time">2017-04-29 16:27</div>
+                            </div>
+                            <div class="reply-info">
+                                <span class="reply ">回复</span>
+                                <div class="up"><span>(123)</span></div>
+                                <div class="down"><span>(119)</span></div>
+                            </div>
+                            <p class="reply-text">
+                                给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴我的天，即使主子再怎么淘气调皮给人添乱，喜欢就是喜欢，依然不变。——所谓猫奴</p>
+                        </div>
+                        <div class="reply-more"><span></span>展开更多评论</div>
+                    </div>
+                    <div class="comment-info">
+                        <span class="floor">#3</span>
+                        <div class="up"><span>(123)</span></div>
+                        <div class="down"><span>(119)</span></div>
+                        <span class="reply ">回复</span>
+                    </div>
+                </div>
+
+            </div>-->
+        </div>
+
+        <!--评论展示区-->
+    </div>
+</div>
+<!--底部栏-->
+<div class="footer">
+    <ul>
+        <li>关于我们</li>
+        <li>合作推广</li>
+        <li>加入我们</li>
+        <li>友情链接</li>
+        <li>免责声明</li>
+        <li>官方微博</li>
+        <li>微信公众号</li>
+    </ul>
+    <p>本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源。Copyright © 2017 Youtubuer. 保留所有权利 闽ICP备11111111号-1</p>
+</div>
+</body>
+</html>

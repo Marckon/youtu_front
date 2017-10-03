@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>油兔视频-用户中心</title>
+    <link rel="shortcut icon" href="image/ico/ico.ico"/>
+    <link rel="stylesheet" href="style/view/userCenter.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/userCenter.js"></script>
+</head>
+<body>
+<!--顶部信息区-->
+<div class="topNav-wrapper">
+    <div class="topNav">
+        <div class="topNav-l">
+            <a href="index.html" class="logo left"><img src="image/topNav/logo.png"></a>
+            <ul class="left">
+                <li class="left"><a href="index.html">当下热门</a></li>
+                <li class="left"><a href="partitions.html">分区</a></li>
+                <li class="left"><a href="" id="MySubscribe">我的订阅</a></li>
+                <li class="left"><a href="" id="userCenter">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="topNav-r">
+            <form class="left">
+                <input type="button" class="searchBtn left" id="toSearch">
+                <input type="text" class="searchText left" id="searchText" placeholder="发现世界" autocomplete="off">
+            </form>
+            <span class="upload left"><a href="" id="upLoad"></a></span>
+            <div class="topNav-login right">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header"></div>
+<!--中心区域-->
+
+<div class="userCenter-wrapper clearfloat">
+    <ul class="userCenter-l">
+        <li>个人设置</li>
+        <li>首页管理</li>
+        <li>视频管理</li>
+        <!--<li>影视管理</li>-->
+        <li>订阅管理</li>
+        <li>收藏管理</li>
+    </ul>
+    <div class="userCenter-r">
+        <div class="user-set">
+            <div class="userCenter-title"><span></span>个人信息填写</div>
+        </div>
+        <div class="index-management">
+            <div class="userCenter-title"><span></span>首页设置</div>
+            <div class="userCenter-btn-wrapper clearfloat">
+                <div class="userCenter-btn" id="index-Btn">
+                    <span></span>
+                </div>
+                <p class="userCenter-btn-msg">打开<span>(关闭以后，频道主页将关闭"首页"类目)</span></p>
+            </div>
+            <div class="revise-index-wrapper clearfloat">
+                <a href="javascript:;" class="index-bg-up">
+                    <input type="file">
+                </a>
+                <p>链接：</p>
+                <input type="text" class="index-link" placeholder="将发布过的视频链接复制到此处">
+                <div class="index-set-wrapper">
+                    <div class="revise-btn">修改</div>
+                    <div class="del-btn">删除</div>
+                </div>
+            </div>
+            <div class="add-index-wrapper">
+                <a href="javascript:;" class="index-bg-up">
+                    <input type="file">
+                </a>
+                <p>链接：</p>
+                <input type="text" class="index-link" placeholder="将发布过的视频链接复制到此处">
+
+                <div class="index-set-wrapper">
+                    <div class="save-btn">保存</div>
+                    <div class="del-btn">删除</div>
+                </div>
+            </div>
+        </div>
+        <div class="video-management">
+            <div class="userCenter-title"><span></span>视频管理</div>
+            <div class="userCenter-btn-wrapper clearfloat">
+                <div class="userCenter-btn" id="Video-Btn">
+                    <span></span>
+                </div>
+                <p class="userCenter-btn-msg">打开<span>(关闭以后，频道主页将关闭"视频"类目)</span></p>
+            </div>
+        </div>
+        <!--<div class="movie-management">影视管理</div>-->
+        <div class="subscribe-management">
+            <div class="userCenter-title"><span></span>订阅管理</div>
+            <div class="userCenter-btn-wrapper clearfloat">
+                <div class="userCenter-btn" id="Sub-Btn">
+                    <span></span>
+                </div>
+                <p class="userCenter-btn-msg">打开<span>(关闭以后，频道主页将关闭"订阅"类目)</span></p>
+            </div>
+        </div>
+        <div class="collection-management">
+            <div class="userCenter-title"><span></span>收藏管理</div>
+            <div class="userCenter-btn-wrapper clearfloat">
+                <div class="userCenter-btn" id="Col-Btn">
+                    <span></span>
+                </div>
+                <p class="userCenter-btn-msg">打开<span>(关闭以后，频道主页将关闭"收藏"类目)</span></p>
+            </div>
+            <div class="c-v-list clearfloat">
+                <ul class="v-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部栏-->
+<div class="footer">
+    <ul>
+        <li>关于我们</li>
+        <li>合作推广</li>
+        <li>加入我们</li>
+        <li>友情链接</li>
+        <li>免责声明</li>
+        <li>官方微博</li>
+        <li>微信公众号</li>
+    </ul>
+    <p>本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源。Copyright © 2017 Youtubuer. 保留所有权利 闽ICP备11111111号-1</p>
+</div>
+</body>
+</html>

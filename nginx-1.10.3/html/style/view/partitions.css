@@ -1,0 +1,58 @@
+/*清除样式*/
+@import "../base/reset.css";
+/*顶部信息区*/
+@import "../base/header.css";
+/*底部区域*/
+@import "../base/footer.css";
+
+.header{
+    height: 60px;
+    background: #4ca5bb;
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(255,255,255,0.6)
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(255,255,255,0.6)
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(255,255,255,0.6)
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgba(255,255,255,0.6)
+}
+/*底部固定*/
+.footer{
+    width: 100%;
+}
+
+/*分区部分*/
+.partitions-wrapper{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.partitions{
+    width: 1180px;
+    margin: 0 auto;
+}
+.partitions a{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 75px;
+    height: 120px;
+}
+.partitions a:hover{
+    box-shadow: 0 0 20px #ccc;
+}
+
+.partitions .noright{
+    margin-right: 0;
+}
+.partitions img{
+    height: 100%;
+    border-radius: 4px;
+}
+
