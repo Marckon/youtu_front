@@ -104,8 +104,9 @@ var videoComment = {
             }
         });
     },// createCommentArea
-    // 回复功能
+    // 回复，点赞，点踩功能
     makeReply: function () {
+        // 回复
         $('.reply').click(function () {
             var reply_type_ele = $(this).parent().prev();
             if ($(reply_type_ele).attr('class') === 'reply-con clearfloat') {
@@ -120,6 +121,16 @@ var videoComment = {
                 $(this).parents().eq(2).find('.reply-input').show();
             }
         });
+        // 点赞
+        $('.up').click(function () {
+            var current_up=Number($(this).find('span').html());
+            $(this).find('span').html(current_up+1);
+        });
+        //点踩
+        $('.down').click(function () {
+            var current_up=Number($(this).find('span').html());
+            $(this).find('span').html(current_up+1);
+        })
     },//makereply
     // 分页功能
     Page: function (address, commentLength, pageIndex, eventCount, navigateCount, itemNo, typeNo) {
@@ -245,8 +256,8 @@ var videoComment = {
             user = {'id': userNo, 'name': userName};
             return user;
         } else {
-//                return user = {'id': null, 'name': null};
-            return user=null;
+               return user = {'id': null, 'name': null};
+            // return user=undefined;
         }
     }
 };// videoComment
@@ -271,7 +282,7 @@ $(function () {
                 var styleNo = videoComment.getUrlParam('id');
                 var replyNo = 0;
                 var userNo = videoComment.getCurrentUser().id;
-                if (userNo === undefined) {
+                if (userNo === null) {
                     alert('您貌似还没有登录');
                     window.location.href='login.html';
                 } else if (describe === '') {

@@ -915,3 +915,7 @@ body {
 .reply-input{
     display: none;
 }
+.reply-fold span{
+    background: url("../../image/v-play/reply-more-icon.png") no-repeat;
+    transform: rotate(180deg);
+}
