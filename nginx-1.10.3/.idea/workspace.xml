@@ -24,17 +24,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcomment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vcomment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="59" column="58" lean-forward="true" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+            <state relative-caret-position="1978">
+              <caret line="221" column="57" lean-forward="false" selection-start-line="221" selection-start-column="57" selection-end-line="221" selection-end-column="57" />
               <folding>
-                <element signature="e#13638#17548#0" expanded="false" />
-                <element signature="e#17639#18638#0" expanded="false" />
-                <element signature="e#18699#19047#0" expanded="false" />
-                <element signature="e#19318#21253#0" expanded="false" />
+                <element signature="e#76#275#0" expanded="false" />
+                <element signature="e#321#548#0" expanded="false" />
+                <element signature="e#596#804#0" expanded="false" />
+                <element signature="e#889#9127#0" expanded="false" />
+                <element signature="e#13671#17581#0" expanded="false" />
+                <element signature="e#17672#18671#0" expanded="false" />
+                <element signature="e#19351#21286#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1794">
+              <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/userCenter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userCenter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/js/userCenter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12972">
+              <caret line="564" column="0" lean-forward="true" selection-start-line="564" selection-start-column="0" selection-end-line="564" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +85,8 @@
       <file leaf-file-name="v.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/v.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+            <state relative-caret-position="322">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -91,8 +134,9 @@
         <option value="$PROJECT_DIR$/youtu_test.json" />
         <option value="$PROJECT_DIR$/html/style/view/v.css" />
         <option value="$PROJECT_DIR$/html/js/vreply.js" />
-        <option value="$PROJECT_DIR$/html/v.html" />
         <option value="$PROJECT_DIR$/html/js/vcomment.js" />
+        <option value="$PROJECT_DIR$/html/v.html" />
+        <option value="$PROJECT_DIR$/html/js/login.js" />
       </list>
     </option>
   </component>
@@ -124,7 +168,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,16 +199,16 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3" />
-      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html\js" />
-      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html" />
       <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3" />
       <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html\js" />
       <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html\style\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3" />
+      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html\js" />
+      <recent name="C:\Users\lcz\Desktop\nginx-1.10.3-20170930\nginx-1.10.3\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,12 +235,15 @@
       <updated>1507019938600</updated>
       <workItem from="1507019939807" duration="5213000" />
       <workItem from="1507642038721" duration="2489000" />
-      <workItem from="1507682297797" duration="14254000" />
+      <workItem from="1507682297797" duration="15111000" />
+      <workItem from="1507707379091" duration="659000" />
+      <workItem from="1507794956594" duration="2999000" />
+      <workItem from="1507965934735" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21956000" />
+    <option name="totallyTimeSpent" value="27047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -205,12 +252,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -259,13 +306,208 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="221" column="57" lean-forward="true" selection-start-line="221" selection-start-column="57" selection-end-line="221" selection-end-column="57" />
+          <folding>
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/userCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/userCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12972">
+          <caret line="564" column="0" lean-forward="true" selection-start-line="564" selection-start-column="0" selection-end-line="564" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/v.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/v.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21022">
+          <caret line="914" column="13" lean-forward="false" selection-start-line="914" selection-start-column="13" selection-end-line="914" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/youtu_test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/test_youtu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/v.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="120" column="20" lean-forward="false" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/v.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21022">
+          <caret line="914" column="13" lean-forward="false" selection-start-line="914" selection-start-column="13" selection-end-line="914" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/youtu_test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="235" column="11" lean-forward="false" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
+          <folding>
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/test_youtu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/v.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/v.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21022">
+          <caret line="914" column="13" lean-forward="false" selection-start-line="914" selection-start-column="13" selection-end-line="914" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style/view/youtu_test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="235" column="11" lean-forward="true" selection-start-line="235" selection-start-column="11" selection-end-line="235" selection-end-column="11" />
+          <folding>
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/test_youtu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3013">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
-            <element signature="e#13638#17548#0" expanded="false" />
-            <element signature="e#17639#18638#0" expanded="false" />
-            <element signature="e#18699#19047#0" expanded="false" />
-            <element signature="e#19318#21253#0" expanded="false" />
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -331,10 +573,13 @@
         <state relative-caret-position="6394">
           <caret line="278" column="24" lean-forward="false" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
           <folding>
-            <element signature="e#13638#17548#0" expanded="false" />
-            <element signature="e#17639#18638#0" expanded="false" />
-            <element signature="e#18699#19047#0" expanded="false" />
-            <element signature="e#19318#21253#0" expanded="false" />
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -387,22 +632,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/v.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/userCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12972">
+          <caret line="564" column="0" lean-forward="true" selection-start-line="564" selection-start-column="0" selection-end-line="564" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/vcomment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="59" column="58" lean-forward="true" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        <state relative-caret-position="1978">
+          <caret line="221" column="57" lean-forward="false" selection-start-line="221" selection-start-column="57" selection-end-line="221" selection-end-column="57" />
           <folding>
-            <element signature="e#13638#17548#0" expanded="false" />
-            <element signature="e#17639#18638#0" expanded="false" />
-            <element signature="e#18699#19047#0" expanded="false" />
-            <element signature="e#19318#21253#0" expanded="false" />
+            <element signature="e#76#275#0" expanded="false" />
+            <element signature="e#321#548#0" expanded="false" />
+            <element signature="e#596#804#0" expanded="false" />
+            <element signature="e#889#9127#0" expanded="false" />
+            <element signature="e#13671#17581#0" expanded="false" />
+            <element signature="e#17672#18671#0" expanded="false" />
+            <element signature="e#19351#21286#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/userCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

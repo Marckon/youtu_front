@@ -1,4 +1,6 @@
 var videoComment = {
+    //登录
+
     // 获取参数
     getUrlParam: function (name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
@@ -21,7 +23,6 @@ var videoComment = {
         var date = new Date(parseInt(timeStamp));
         return [date.getFullYear(), date.getMonth() + 1, date.getDate()].join('-') + ' ' + [date.getHours(), date.getMinutes()].join(':'); // 2015-1-2
     },
-
     // 创建评论区模块
     createCommentArea: function (itemNo, typeNo, pageSize, pageNum) {
         // 获取评论数据
@@ -68,6 +69,9 @@ var videoComment = {
                 var comment_list = $(".comment-list");
                 var comment_num = data.data.data.length;   // 当前页评论数量
                 var total_comments = data.data.total;// 该视频下的总评论
+                data.data.data.sort(function (v1,v2) {
+                    return v1.floors-v2.floors;
+                });// 按楼层排序
                 if (comment_num > 0) {
                     for (var i = 0; i < comment_num; i++) {
                         // 创建评论区
@@ -171,8 +175,8 @@ var videoComment = {
                 createtime: new Date(),
                 // var describe = $('.comment-send:first').find('.comment-text').val();
                 describe: $(this).parent().find('.comment-text:first').val(),// 内容
-                styleNo: videoComment.getUrlParam('id'),// 当前视频id
-                userNo: videoComment.getCurrentUser().id,// 当前用户的id
+                styleNo: Number(videoComment.getUrlParam('id')),// 当前视频id
+                userNo: Number(videoComment.getCurrentUser().id),// 当前用户的id
                 storey: function () {
                     if (typeof (Post_data.current_btn.attr('data-id') == 'undefined')){  // 如果为添加评论
                         return data.data.data.length + 1;// 楼层数，回复的为当前楼层，评论的为总楼层加一
@@ -184,7 +188,7 @@ var videoComment = {
                     if (typeof (Post_data.current_btn.attr('data-id') == 'undefined')){  // 如果为添加评论
                         return 0;// 回复对象的内容id，若为评论则该值为0
                     } else {
-                        return Post_data.current_btn.attr('data-id');
+                        return Number(Post_data.current_btn.attr('data-id'));
                     }
                 },
 
@@ -197,14 +201,24 @@ var videoComment = {
                     }
                 }
             };
-            alert(Post_data.createtime+' '+Post_data.describe+' '+Post_data.styleNo+' '+Post_data.storey()+' '+Post_data.replyNo()+' '+Post_data.commentNo())
-
+            // alert(Post_data.createtime+' '+Post_data.describe+' '+Post_data.styleNo+' '+Post_data.storey()+' '+Post_data.replyNo()+' '+Post_data.commentNo())
             if (Post_data.userNo === null) {
                 alert('您貌似还没有登录');
                 window.location.href = 'login.html';
             } else if (Post_data.describe === '') {
                 alert('您貌似什么都没有说');
             } else {
+                /*var data1= {
+                    commentNo: Post_data.commentNo(),
+                        userNo: Post_data.userNo,
+                        describe: Post_data.describe,
+                        createtime: Post_data.createtime,
+                        storey: Post_data.storey(),
+                        replyNo: Post_data.replyNo(),
+                        styleNo: Post_data.styleNo
+                };
+                var datastring=JSON.stringify(data1);
+                alert(datastring);*/
                 $.ajax({
                     type: 'POST',
                     url: 'youtu/front/comment/addcomment',
@@ -216,9 +230,12 @@ var videoComment = {
                         storey: Post_data.storey(),
                         replyNo: Post_data.replyNo(),
                         styleNo: Post_data.styleNo
+                        // style:1
                     },
                     success: function (data) {
-                        alert(data.message);
+                        var datastring=JSON.stringify(data);
+                        alert(datastring)
+                        // alert('错误代码：'+data.code+' '+data.message);
                         videoComment.createCommentArea();
                     }
                 })

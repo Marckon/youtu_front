@@ -205,7 +205,7 @@ $(function () {
                         sessionStorage.setItem("email", data.data.email);
 
                         //跳转到首页
-                        window.location.href='index.html';
+                        window.history.back();
                     }
                 }
             })
